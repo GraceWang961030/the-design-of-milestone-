@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    background-color: floralwhite;
+}
+.masthead {
+    background-color: gold;
+}
+#nav{
+    width: 600px;
+    height: 40px;
+
+}
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    float: left;
+    line-height: 40px;
+    text-align:right;
+    position: relative;
+}
+#nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0px 10px;
+}
+#nav ul li a:hover{
+    color: #FFFFFF;
+    background: #333333;
+}
+#nav ul li ul{
+    position: absolute;
+    display: none;
+}
+#nav ul li ul li{
+    float: none;
+    line-height: 30px;
+    text-align: left;
+}
+#nav ul li ul li a{
+    width: 100%;
+}
+#nav ul li ul li a:hover{
+    background-color: #333333;
+}
+#nav ul li:hover ul{
+    display: block;
+}
+#image-header
+{
+    position: relative;
+    width: 220vh;
+    height: 100vh;
+}
+#header-1
+{
+    position: static;
+    width:100%;
+    height: 100%;
+}
+#head-text
+{
+    position:absolute;
+    width: 100%;
+    top: 25px;
+    left: 10px;
+    text-align: left;
+    color: floralwhite;
+    font-family: "arial";
+    font-size: xx-large;
+    text-align: center;
+}
+#leftContext
+{
+    float: left;
+    width: 60%;
+    padding: 5px;
+}
+#rightContext
+{
+    float: left;
+    width:30%;
+    padding: 5px;
+}
+#fooster {
+    position: relative;
+    text-align: left;
+}
+#fooster table tr th a{
+    text-decoration: none;
+}
